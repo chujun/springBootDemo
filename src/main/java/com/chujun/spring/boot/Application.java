@@ -14,6 +14,10 @@ import java.util.Arrays;
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
+        /**
+         * 百分百纯java代码,无xml配置,
+         * web.xml也没有
+         */
         SpringApplication.run(Application.class, args);
     }
 
